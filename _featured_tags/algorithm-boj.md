@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: BOJ
-slug: boj 
+title: acmicpc
+slug: acmicpc
 category: algorithm
 menu: false 
-order: 1
+order: 3
 ---

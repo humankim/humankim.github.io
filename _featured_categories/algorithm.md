@@ -1,7 +1,7 @@
 ---
 layout: list
-title: 알고리즘
-slug: 알고리즘
+title: Algorithm
+slug: algorithm
 menu: true
 submenu: true
 order: 1
