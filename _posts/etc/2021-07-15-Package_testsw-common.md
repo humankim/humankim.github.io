@@ -3,6 +3,7 @@ layout: post
 title: "package of testsw-common"
 subtitle: "package of testsw-common"
 categories: etc
+comments : true
 tags: devtest 
 ---
 
@@ -26,14 +27,11 @@ tags: devtest
 
 3. Downlaod googletest and copy it
     (ext/googletest-release-1.7.0)
-    (cmake CMakeListst.txt)
-    (make)
 
 4. log4cplus
     (cd ext)
     (git clone  https://github.com/log4cplus/log4cplus.git  --recursive)
-    (cmake CMakeLists.txt)
-    (make)
+    (./configure)
 
 5. jsoncpp
    (cd ext)
@@ -59,3 +57,14 @@ tags: devtest
 
     \#set(LIBS jsoncpp log4cplus)
 ```
+
+lcov , gcov
+1. lcov
+;  
+2. gcov
+pip install gcovr
+; ~/.local/bin 에 설치됨
+
+
+https://jayy-h.tistory.com/18  
+이곳 가이드 대로 하되, gcov main.cpp 은 gcov main.cpp.gcno 로 하면 됨.. 
